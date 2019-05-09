@@ -1,0 +1,23 @@
+{
+  "name": "my-org-webdav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsy/my-org-webdav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuxsy/my-org-webdav/issues"
+  },
+  "homepage": "https://github.com/tuxsy/my-org-webdav#readme",
+  "dependencies": {
+    "webdav": "^2.6.0",
+    "webdav-server": "^2.4.6"
+  }
+}
