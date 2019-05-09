@@ -11,7 +11,7 @@ privilegeManager.setRights(user, '/', [ 'all' ]);
 const server = new webdav.WebDAVServer({
     // HTTP Digest authentication with the realm 'Default realm'
     httpAuthentication: new webdav.HTTPDigestAuthentication(userManager, 'Default realm'),
-    // privilegeManager: privilegeManager,
+    privilegeManager: privilegeManager,
     port: process.env.PORT || 1900
 });
 
